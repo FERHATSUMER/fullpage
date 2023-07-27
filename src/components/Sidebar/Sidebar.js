@@ -18,16 +18,13 @@ function getItem(label, key, icon, children) {
   };
 }
 const items = [
-  getItem('Kullanıcı Paneli', '2', <MdAdminPanelSettings />),
+  getItem('Sınavlar', 'sub2', <PiExamFill />),
+  getItem('Güvenlik', 13, <MdOutlineSecurity />),
+  getItem('Bildirimler', 6, <MdNotifications />),
   getItem('Dersler ', 'sub1', <PiUsersLight />, [
     getItem('Gruplar', '3'),
     getItem('Tüm Dersler', '4'),
   ]),
-
-  getItem('Sınavlar', 'sub2', <PiExamFill />),
-  getItem('Güvenlik', 13, <MdOutlineSecurity />),
-  getItem('Bildirimler', 6, <MdNotifications />),
-
   
 ];
 
@@ -43,7 +40,7 @@ function Sidebar() {
           src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGbbaEKw0EDx8BuB2TkStKC3nUkH0nefumiw&usqp=CAU'
           alt='logo'
         />
-       <h3>Arda Güler</h3>
+       <h3>Kullanıcı Paneli</h3>
       </div>
 
       <div className='sidebar-links'>
@@ -60,12 +57,7 @@ function Sidebar() {
           items={items}
         />
       </div>
-      <div className='sidebar-footer'>
-      <h2>Çıkış Yap</h2>
-        <LoginOutlined style={{
-            fontSize: '25px',
-        }}/>
-        </div>
+  
     </div>
   );
 }

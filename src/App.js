@@ -1,9 +1,20 @@
 import './App.css';
-import Sidebar from './components/Sidebar';
+import Header from './components/Header/Header';
+import Home from './components/Home/Home';
+import Sidebar from './components/Sidebar/Sidebar';
+
 function App() {
   return (
-    <div className="App">
-    <Sidebar />
+    <div className='App'>
+      <div className='header'>
+        <Header />
+      </div>
+      <div className='sidebar'>
+        <Sidebar />
+      </div>
+      <div className='home'>
+        <Home />
+      </div>
     </div>
   );
 }

@@ -1,0 +1,80 @@
+/* sidebar.css */
+
+/* Genel stil ayarları */
+.sidebar-container {
+    margin-top: 0;
+    width: 246px;
+    height: 100vh;
+    background-color: #001529;
+  }
+  
+  .sidebar-logo {
+    width: 74px;
+    height: 67px;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  
+  .sidebar-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  .sidebar-footer {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 46px;
+    margin: 290px 17px;
+    gap: 8px;
+  }
+  
+  /* Menü stilleri (eklenmedi, önceki stil kuralları mevcut) */
+  .ant-menu {
+    background-color: transparent;
+    border: none;
+  }
+  
+  .ant-menu-item,
+  .ant-menu-submenu-title {
+    color: #fff;
+  }
+  
+  .ant-menu-item:hover,
+  .ant-menu-submenu-title:hover {
+    background-color: #333;
+  }
+  
+  /* Menü öğesi simgeleri için stiller (eklenmedi, önceki stil kuralları mevcut) */
+  .anticon {
+    font-size: 18px;
+    margin-right: 8px;
+  }
+  
+  /* Menü alt başlıkları için stiller (eklenmedi, önceki stil kuralları mevcut) */
+  .ant-menu-submenu {
+    background-color: #222;
+    border: none;
+  }
+  
+  .ant-menu-submenu-title::after {
+    border-right: 0.2em solid #fff;
+  }
+  
+  /* Menü alt öğeleri için stiller (eklenmedi, önceki stil kuralları mevcut) */
+  .ant-menu-item-group-list {
+    background-color: #1a1a1a;
+  }
+  
+  .ant-menu-item-group-list .ant-menu-item {
+    color: #fff;
+  }
+  

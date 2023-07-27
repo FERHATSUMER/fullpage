@@ -1,0 +1,71 @@
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-image: url(https://media.istockphoto.com/id/1078987058/tr/vekt%C3%B6r/modern-soyut-arka-plan-siyah-zemin-%C3%BCzerine-ye%C5%9Fil-web-sitesi-header-tasar%C4%B1m%C4%B1-i%C3%A7in-%C3%BCstbilgi.jpg?s=170667a&w=0&k=20&c=pNBCXFzNgUl141U9qyujfrs1AAME8CCUR844pXU9wkg=);
+}
+
+.logo {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.nav {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 2rem;
+}
+.nav ul li:hover h4 {
+  font-size: 20px;
+  transform: translateY(-3px);
+  transition: all 0.2s ease-in-out;
+}
+
+.nav ul li:hover {
+  transition: all 0.2s ease-in-out;
+}
+
+.nav ul li {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.nav ul li h4 {
+  font-size: 16px;
+  margin-left: 12px;
+  margin-top: 3px;
+}
+
+.nav ul svg {
+  font-size: 24px;
+  color: white;
+
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-left: 1rem;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+h4 {
+  color: white;
+  margin-left: 0.5rem;
+}
