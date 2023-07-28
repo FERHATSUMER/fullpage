@@ -37,7 +37,7 @@ function Sidebar() {
       <div className='sidebar-header'>
         <img
           className='sidebar-logo'
-          src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGbbaEKw0EDx8BuB2TkStKC3nUkH0nefumiw&usqp=CAU'
+          src='https://media.licdn.com/dms/image/C560BAQG50mwENt9gSQ/company-logo_400_400/0/1632727910976?e=2147483647&v=beta&t=0w36fnGQ37PWTm253SLL0PVTr2ziC_mzcyO71DlLIDc'
           alt='logo'
         />
        <h3>Kullanıcı Paneli</h3>
@@ -48,6 +48,7 @@ function Sidebar() {
         <br />
         <Menu
           style={{
+            display: 'flow',
             width: 245,
           }}
           defaultSelectedKeys={['1']}
