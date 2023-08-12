@@ -21,10 +21,7 @@ const items = [
   getItem('Sınavlar', 'sub2', <PiExamFill />),
   getItem('Güvenlik', 13, <MdOutlineSecurity />),
   getItem('Bildirimler', 6, <MdNotifications />),
-  getItem('Dersler ', 'sub1', <PiUsersLight />, [
-    getItem('Gruplar', '3'),
-    getItem('Tüm Dersler', '4'),
-  ]),
+
   
 ];
 
